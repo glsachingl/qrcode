@@ -1,4 +1,4 @@
-package com.sachin.qrcode.utils;
+package com.infy.qrcode.utils;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -43,7 +43,6 @@ public class ImageUtils {
         } catch (Exception exception) {
             log.error("exception happened ",exception);
         }
-        log.info("in decompress 4");
         return outputStream.toByteArray();
     }
 }

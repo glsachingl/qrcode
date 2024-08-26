@@ -1,6 +1,6 @@
-package com.sachin.qrcode.repo;
+package com.infy.qrcode.repo;
 
-import com.sachin.qrcode.entity.Product;
+import com.infy.qrcode.entity.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ProductRepo extends JpaRepository<Product,Long> {

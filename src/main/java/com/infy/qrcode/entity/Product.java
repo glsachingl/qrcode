@@ -1,4 +1,4 @@
-package com.sachin.qrcode.entity;
+package com.infy.qrcode.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -16,6 +16,8 @@ public class Product {
     private Long id;
     private String name;
     private String category;
+
+    @Column(length = 65535)
     private String description;
 
     @Lob
